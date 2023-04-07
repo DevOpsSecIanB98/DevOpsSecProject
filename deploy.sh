@@ -8,4 +8,7 @@ cd DevOpsSecProject/
 
 npm install
 
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
+
 pm2 start ./bin/www --name DevOpsSec_Project
